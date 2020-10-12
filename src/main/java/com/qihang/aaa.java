@@ -29,21 +29,26 @@ public class aaa {
             System.out.println(map);
         }
 
-        Integer a = 8;
-        if(a==8){
-            System.out.println(123);
-        }
-
         var map = new HashMap<Integer,Integer>();
         map.put(1,1);
         map.put(2,3);
         System.out.println(map);
 
-        var s = "nihao";
-        System.out.println(s);
+        String s1 = "programming";
+        String s2 = null;
+        String s3 = "program"+"ming";
+        System.out.println(s1.equals(s3));
+//        System.out.println(s2.equals(s3));
 
-        JSONObject data = new JSONObject();
-
+        String s4 = "aa";
+        String s5 = "bb";
+        String s6 = s5+s4;
+        String s7 = "aa"+"bb";
+        String s8 = new String("aabb");
+        String s9 = new String("aa")+"bb";
+        System.out.println(s7.equals(s6));
+        System.out.println(s7.equals(s8));
+        System.out.println(s6.equals(s8));
     }
 }
 

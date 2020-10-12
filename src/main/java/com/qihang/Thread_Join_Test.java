@@ -5,7 +5,7 @@ package com.qihang;
  * @Date: 2020/10/9 15:36
  * @Description:
  */
-public class ThreadTest {
+public class Thread_Join_Test {
 
     /**
      * main====>0
